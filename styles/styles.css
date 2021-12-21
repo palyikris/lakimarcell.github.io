@@ -8,15 +8,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .topnav{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     border-bottom: 1.2px solid gray;
-    top:0;
     box-shadow: 5px 3px 5px lightgray;
     background-color: white;
     height: 15vmin
@@ -43,4 +42,69 @@
 .topnav a:hover{
     background-color: black;
     color: white;
+}
+.firstElementContainer{
+    background: url(../public/wetransfer_weboldalon-levo-kep-jpg_2021-12-21_1251/weboldalon\ lévő\ kép.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 15vmin 5vmin;
+}
+.firstElementContainer h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 70vmin;
+    margin-left: 30vmin;
+    font-size: 8vh;
+}
+.firstElementButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vmin;
+}
+.firstElementButtonContainer button{
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 3vmin 5vmin;
+    text-transform: uppercase;
+    font-size: 3.5vh;
+    transition: all ease-in .4s;
+    color: green;
+    border: 1.3px solid green;
+    background-color: transparent;
+}
+.firstElementButtonContainer button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+.secondElementContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12vmin 4vmin;
+}
+.secondElementContainer img{
+    width: 80vmin;
+    border-radius: 10px;
+}
+.secondElementContainer h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 5vh;
+    margin-bottom: 8vmin;
+}
+.secondElementContainer p{
+    width: 70vmin;
+    text-align: left;
+    font-weight: 600;
 }
