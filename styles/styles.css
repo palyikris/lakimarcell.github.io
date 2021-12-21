@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1.2px solid gray;
+    top:0;
+    box-shadow: 5px 3px 5px lightgray;
+    background-color: white;
+    height: 15vmin
+}
+.topnav a{
+    width: 100%;
+    height: 15vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: all ease-in 0.7s;
+    padding: 3vmin;
+    font-weight: bold;
+}
+.topnav a p{
+    text-align: center;
+}
+.topnavImg{
+    height: 15vmin;
+}
+.topnav a:hover{
+    background-color: black;
+    color: white;
+}
