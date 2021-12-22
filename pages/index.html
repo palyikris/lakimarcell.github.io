@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="mainContainer">
-        <div class="topnav" id="topnav">
+        <div class="topnav" id="topnav" data-aos="zoom-in">
             <div href="" class="option">
                 <img class="topnavImg" src="../public/wetransfer_weboldal-logoja-png-png_2021-12-21_1304/Weboldal logója png.png" alt="Webpage logo">
             </div>
@@ -26,20 +27,20 @@
             <a href="" class="option"><p>kontakt</p></a>
             <a href="" class="option"><p>ingyenes anyagok</p></a>
         </div>
-        <div class="firstElementContainer">
-            <h1>
+        <div class="firstElementContainer" data-aos="zoom-in">
+            <h1 data-aos="zoom-in-up"> 
                 Nem az a kérdés,
                 hogy mi, hanem
                 hogy ki akarsz
                 lenni!
             </h1>
-            <div class="firstElementButtonContainer"><button>vásárlás</button></div>
+            <div class="firstElementButtonContainer" data-aos="zoom-in-up"><button>vásárlás</button></div>
         </div>
-        <div class="secondElementContainer">
+        <div class="secondElementContainer" data-aos="fade-down">
             <img src="../public/weboldalon lévő kép .jpg" alt="Picture of owner description">
             <div class="secondElementDescription">
-                <h1>Marcellről</h1>
-                <p>
+                <h1 data-aos="zoom-out-left">Marcellről</h1>
+                <p data-aos="zoom-out-right">
                     Laki Marcell az 1% brand alapítója és sok más vállalkozás létrehozója.
                     18 évesen már komolyan belekóstolt a vállalkozói létbe, ahol egy
                     multinacionális cégnek segített az értékesítésben. Nagyon gyorsan
@@ -49,6 +50,43 @@
                 </p>
             </div>
         </div>
+        <div class="thirdElementContainer" data-aos="zoom-in">
+            <div class="thirdElement">
+                <div class="review" style="background-image: url(../public/costumers/Pfeifer\ Máté\ kép.jpeg)" data-aos="fade-up">
+                    <div class="dataContainer">
+                        <div class="name">Pfeifer Máté</div>
+                        <div class="description">
+                            Mindig azt mondja ami az igazság, soha nem akar köntörfalazni.
+                        </div>
+                    </div>
+                </div>
+                <div class="review" style="background-image: url(../public/costumers/starbrown-logo\ \(1\).png)" data-aos="fade-up">
+                    <div class="dataContainer">
+                        <div class="name">Starbrown</div>
+                        <div class="description">
+                            Gyorsabb és hatékonyabb lett a kommunikációnk az együttműködés
+                            során.
+                        </div>
+                    </div>
+                </div>
+                <div class="review" style="background-image: url(../public/costumers/Szabó\ Tamás\ kép.jpg)" data-aos="fade-up">
+                    <div class="dataContainer">
+                        <div class="name">Szabó Tamás</div>
+                        <div class="description">Megtanított vezetőként gondolkodni.</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
     </div>
+    <script src="../script/index.js">
+
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1200
+        });
+      </script>
 </body>
 </html>
