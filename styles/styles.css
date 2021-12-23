@@ -4,6 +4,26 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 2vmin;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: white;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b1b3b1;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 .mainContainer{
     display: flex;
     justify-content: center;
@@ -18,7 +38,7 @@
     border-bottom: 1.2px solid gray;
     box-shadow: 5px 3px 5px lightgray;
     background-color: white;
-    height: 15vmin
+    height: 15vmin;
 }
 .topnav a{
     width: 100%;
@@ -177,4 +197,95 @@
 }
 .displayedOpinion{
     display: flex;
+}
+.thirdElementTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebebeb;
+    width: 100%;
+    padding-top: 7vmin;
+}
+.thirdElementTitle h1{
+    font-size: 5vh;
+    margin-bottom: 5vmin;
+    text-transform: uppercase;
+}
+.thirdElementTitle h3{
+    opacity: .4;
+}
+.fourthElementContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../public/5.\ elem\ háttérképe.jpg");
+    width: 100%;
+    padding: 20vmin 0vmin 10vmin  0vmin;
+}
+.fourthElementTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+.fourthElementTitle h1{
+    font-size: 6vh;
+    margin-bottom: 5vmin;
+    text-transform: uppercase;
+}
+.purchaseOptions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20vmin;
+}
+.purchaseOption{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 40vmin;
+    height: 60vmin;
+    padding: 5vmin 3vmin;
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+.purchaseTitle{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3.5vh;
+    width: 100%;
+    height: 10vmin;
+    margin-bottom: 6vmin;
+}
+.purchaseTitle p{
+    text-align: center;
+}
+.purchaseDesc{
+    color: white;
+    padding: 4vmin 0;
+    text-align: center;
+}
+.morePurchase{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1vmin 2.5vmin;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 5vmin;
+    transition: all ease-in-out .6s
+}
+.morePurchase:hover{
+    background-color: white;
+    color: black;
 }
