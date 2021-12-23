@@ -82,9 +82,10 @@ background: white;
     color: white;
     text-align: center;
     font-weight: bold;
-    width: 70vmin;
-    margin-left: 30vmin;
-    font-size: 8vh;
+    width: 120vmin;
+    margin-left: 10vmin;
+    font-size: 12vh;
+    margin-top: 8vmin;
 }
 .firstElementButtonContainer{
     width: 100%;
@@ -101,14 +102,15 @@ background: white;
     text-transform: uppercase;
     font-size: 3.5vh;
     transition: all ease-in .4s;
-    color: green;
+    color: white;
     border: 1.3px solid green;
-    background-color: transparent;
+    background-color: green;
 }
 .firstElementButtonContainer button:hover{
     cursor: pointer;
     color: white;
-    background-color: green;
+    background-color: darkgreen;
+    transform: scale(1.1);
 }
 .secondElementContainer{
     display: flex;
