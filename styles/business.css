@@ -108,6 +108,7 @@ background: white;
     align-items: center;
     margin-top: 80vmin;
     width: 100%;
+    flex-direction: column;
 }
 .listOfServices{
     display: flex; 
@@ -149,7 +150,26 @@ background: white;
 .listOfServices div[title]:hover, .listOfServices div[notItem]:hover{
     transform: scale(1);
 }
-
+.secondElementContainer .buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vmin;
+}
+.secondElementContainer .buttonContainer a{
+    padding: 3vmin 5vmin;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+.secondElementContainer .buttonContainer a:hover{
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
 
 
 
