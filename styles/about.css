@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -95,4 +96,110 @@ background: white;
 }
 .whoAmIDesc ul li{
     font-size: 3vh;
+}
+.secondElementContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vmin;
+    background-color: #ebebeb;
+    padding: 15vmin 0;
+}
+.videoTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 10vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15vmin;
+}
+.video{
+    width: 90%;
+    padding: 40vmin 0;
+    text-align: center;
+    border: 2px solid black;
+}
+.thirdElementContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15vmin 0;
+    background: url("../public/wetransfer_v-ez-jpg_2021-12-23_2014/v\ ez.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.thirdElementTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vmin;
+    color: black;
+    font-weight: bold;
+}
+.myStory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgba(171, 171, 171, .4);
+    border-radius: 10px;
+    width: 50vmin;
+    padding: 5vmin 3vmin;
+    backdrop-filter: 5px;
+    transition: all .6s;
+}
+.myStory:hover{
+    background-color: rgba(171, 171, 171, .7);
+    cursor: default;
+}
+.myStory p{
+    text-align: center;
+    margin: 12vmin 0;
+}
+.myStory:nth-child(2n+1){
+    margin-left: 120vmin;
+}
+.myStory:nth-child(2n+0){
+    margin-right: 120vmin;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    padding: 10vmin 0 10vmin 10vmin;
+}
+.contacts{
+}
+.infoTitle, .contactTitle{
+    margin-bottom: 4vmin;
+}
+.information{
+    margin-bottom: 1vmin;
+}
+.myLogo{
+    width: 30vmin;
+}
+#myContact p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myContact p img{
+    margin-left: 5vmin;
 }
