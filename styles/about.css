@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 2vmin;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: white;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b1b3b1;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.2px solid gray;
+    background-color: white;
+    height: 15vmin;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.topnav a{
+    width: 100%;
+    height: 15vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: all ease-in 0.7s;
+    padding: 3vmin;
+    font-weight: bold;
+}
+.topnav a p{
+    text-align: center;
+}
+.topnavImg{
+    height: 15vmin;
+}
+.topnav:first-child:hover{
+    cursor: pointer;
+}
+.topnav a:hover{
+    background-color: black;
+    color: white;
+}
+.firstElementContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5vmin 15vmin;
+    margin-top: 15vmin;
+}
+.firstElementContainer img{
+    width: 100vmin;
+}
+.whoAmIDesc{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.whoAmIDesc h1{
+    font-size: 10vh;
+    font-weight: bold;
+    margin-bottom: 8vmin;
+}
+.whoAmIDesc ul{
+    margin-left: 5vmin;
+    width: 80vmin;
+}
+.whoAmIDesc ul li{
+    font-size: 3vh;
+}
