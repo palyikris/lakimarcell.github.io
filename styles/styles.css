@@ -254,23 +254,25 @@ background: white;
     padding: 5vmin 3vmin;
     border: 1.5px solid white;
     border-radius: 10px;
+    background-color: white;
 }
 .purchaseTitle{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 3.5vh;
     width: 100%;
     height: 10vmin;
     margin-bottom: 6vmin;
+    font-weight: bold;
 }
 .purchaseTitle p{
     text-align: center;
 }
 .purchaseDesc{
-    color: white;
+    color: black;
     padding: 4vmin 0;
     text-align: center;
 }
@@ -279,13 +281,13 @@ background: white;
     text-transform: uppercase;
     padding: 1vmin 2.5vmin;
     color: white;
-    background-color: transparent;
-    border: 1px solid white;
+    background-color: green;
+    border: 1px solid green;
     border-radius: 5px;
     margin-top: 5vmin;
     transition: all ease-in-out .6s
 }
 .morePurchase:hover{
     background-color: white;
-    color: black;
+    color: green;
 }
