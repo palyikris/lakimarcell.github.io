@@ -36,9 +36,11 @@ background: white;
     justify-content: center;
     align-items: center;
     border-bottom: 1.2px solid gray;
-    box-shadow: 5px 3px 5px lightgray;
     background-color: white;
     height: 15vmin;
+    position: fixed;
+    z-index: 10;
+    top: 0;
 }
 .topnav a{
     width: 100%;
@@ -74,6 +76,7 @@ background: white;
     flex-direction: column;
     width: 100%;
     padding: 15vmin 5vmin;
+    margin-top: 15vmin;
 }
 .firstElementContainer h1{
     color: white;
@@ -206,6 +209,7 @@ background: white;
     background-color: #ebebeb;
     width: 100%;
     padding-top: 7vmin;
+    padding: 15vmin 0;
 }
 .thirdElementTitle h1{
     font-size: 5vh;
@@ -290,4 +294,42 @@ background: white;
 .morePurchase:hover{
     background-color: white;
     color: green;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url("../public/weboldalra\ kép.jpg");
+    padding: 10vmin 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+}
+.socialMedia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: reverse-column;
+    flex-wrap: wrap;
+}
+.socialMedia a{
+    width: 20vmin;
+    height: 20vmin;
+    padding: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20vmin 20vmin;
+    background-color: white;
+    border-radius: 100%
+}
+.socialMedia i{
+    font-size: 10vh;
+    color: #595959;
+}
+.socialMedia img{
+    width: 10vmin;
 }
