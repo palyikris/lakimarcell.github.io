@@ -352,3 +352,32 @@ background: white;
     font-weight: bolder;
     text-transform: uppercase;
 }
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    padding: 10vmin 0 10vmin 10vmin;
+}
+.contacts{
+}
+.infoTitle, .contactTitle{
+    margin-bottom: 4vmin;
+}
+.information{
+    margin-bottom: 1vmin;
+}
+.myLogo{
+    width: 30vmin;
+}
+#myContact p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#myContact p img{
+    margin-left: 5vmin;
+}
