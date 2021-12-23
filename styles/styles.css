@@ -133,6 +133,26 @@ background: white;
     text-align: left;
     font-weight: 600;
 }
+.secondElementDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutMe{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 2vmin 3.5vmin;
+    border-radius: 10px;
+    margin-top: 10vmin;
+    transition: all ease-in-out .6s;
+    text-transform: uppercase;
+}
+.aboutMe:hover{
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
 .thirdElementContainer{
     display: flex;
     justify-content: center;
