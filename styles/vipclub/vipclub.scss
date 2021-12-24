@@ -1,0 +1,57 @@
+@import "./../uniformStyles/uniform";
+
+#transparentTopnav{
+    @include topnav();
+    background-color: transparent !important;
+    border: none;
+    color: $topnavBg;
+    position: absolute;
+    a{
+        color: white;
+        &:hover{
+            border: 1px solid white;
+            
+        }
+    }
+}
+.firstElementContainer{
+    @include centerDiv(column);
+    background: url("../../public/1�vip\ klubb\ háttere\ fogadó\ rész.jpg");
+    @include bgPic();
+    width: 100%;
+    padding-bottom: 15vmin;
+    .firstText{
+        @include centerDiv(column);
+        .title{
+            @include centerDiv(row);
+            width: 100%;
+            margin: 40vmin 0 10vmin 0;
+            h1{
+                text-align: center;
+                color: white;
+                width: 150vmin;
+                font-size: 10vh;
+            }
+        }
+        .desc{
+            @include centerDiv(row);
+            width: 100%;
+            img{
+                width: 60vmin;
+                margin-left: 20vmin;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 20vmin;
+}
