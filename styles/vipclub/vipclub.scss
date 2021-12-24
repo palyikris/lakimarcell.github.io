@@ -62,7 +62,117 @@
         }
     }
 }
-
+.secondElementContainer{
+    width: 100%;
+    @include centerDiv(column);
+    .listOfAdvs{
+        @include centerDiv(row);
+        width: 100%;
+        flex-wrap: wrap;
+        .adv{
+            @include centerDiv(row);
+            width: 40vmin;
+            padding: 3vmin 5vmin;
+            background-color: #4ca162;
+            height: 40vmin;
+            margin: 5vmin 3vmin;
+            border-radius: 10px;
+            transition: all 0.6s;
+            p{
+                text-align: center;
+                font-size: 3.5vh;
+                font-weight: 500;
+                color: white;
+            }
+            &:hover{
+                animation-name: shake;
+                animation-timing-function: ease-in-out;
+                animation-duration: 1.5s;
+                animation-iteration-count: 1;
+                animation-fill-mode: linear;
+                cursor: default;
+            }
+        }
+        .adv[title]{
+            width: 100%;
+            @include centerDiv(row);
+            justify-content: flex-start;
+            padding: 15vmin 0 10vmin 10vmin;
+            font-size: 8vh;
+            font-weight: bold;
+            background-color: transparent;
+            animation-name: none;
+            &:hover{
+                cursor: default
+            }
+            p{
+                font-size: 8vh;
+                font-weight: bold;
+                color: black;
+            }
+        }
+    }
+    .listOfDis{
+        @include centerDiv(row);
+        width: 100%;
+        flex-wrap: wrap;
+        .dis{
+            @include centerDiv(row);
+            width: 40vmin;
+            padding: 3vmin 5vmin;
+            background-color: #b84949;
+            height: 40vmin;
+            margin: 5vmin 3vmin;
+            border-radius: 10px;
+            transition: all 0.6s;
+            p{
+                text-align: center;
+                font-size: 3.5vh;
+                font-weight: 500;
+                color: white;
+            }
+            &:hover{
+                animation-name: shake;
+                animation-timing-function: ease-in-out;
+                animation-duration: 1.5s;
+                animation-iteration-count: 1;
+                animation-fill-mode: linear;
+                cursor: default;
+            }
+        }
+        .dis[title]{
+            width: 100%;
+            @include centerDiv(row);
+            justify-content: flex-start;
+            padding: 15vmin 0 10vmin 10vmin;
+            font-size: 8vh;
+            font-weight: bold;
+            background-color: transparent;
+            animation-name: none;
+            &:hover{
+                cursor: default
+            }
+            p{
+                font-size: 8vh;
+                font-weight: bold;
+                color: black;
+            }
+        }
+    }
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
 
 
