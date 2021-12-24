@@ -284,7 +284,37 @@
 .thirdElementTitle h3{
     opacity: .4;
 }
-
+.fifthElementContainer{
+    @include centerDiv(row);
+    margin-top: 15vmin;
+    padding: 15vmin 0;
+    background-color: #ebebeb;
+    width: 100%;
+    .imgContainer{
+        @include centerDiv(row);
+        img{
+            width: 60vmin;
+        }
+    }
+    .quoteContainer{
+        @include centerDiv(column);
+        .quote{
+            @include centerDiv(column);
+            h3{
+                font-size: 5vh;
+                font-weight: bold;
+                font-style: italic;
+                margin: 1vmin 0;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 2.5vh;
+            font-style: italic;
+            margin-top: 5vmin;
+        }
+    }
+}
 
 
 

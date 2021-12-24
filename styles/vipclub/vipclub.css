@@ -799,6 +799,92 @@ footer {
   opacity: .4;
 }
 
+.fifthElementContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15vmin;
+  padding: 15vmin 0;
+  background-color: #ebebeb;
+  width: 100%;
+}
+
+.fifthElementContainer .imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fifthElementContainer .imgContainer img {
+  width: 60vmin;
+}
+
+.fifthElementContainer .quoteContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fifthElementContainer .quoteContainer .quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fifthElementContainer .quoteContainer .quote h3 {
+  font-size: 5vh;
+  font-weight: bold;
+  font-style: italic;
+  margin: 1vmin 0;
+}
+
+.fifthElementContainer .quoteContainer p {
+  text-align: center;
+  font-size: 2.5vh;
+  font-style: italic;
+  margin-top: 5vmin;
+}
+
 footer {
   margin-top: 20vmin;
 }
