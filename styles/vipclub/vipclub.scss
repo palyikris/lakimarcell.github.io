@@ -75,7 +75,7 @@
             padding: 3vmin 5vmin;
             background-color: #4ca162;
             height: 40vmin;
-            margin: 5vmin 3vmin;
+            margin: 5vmin 8vmin;
             border-radius: 10px;
             transition: all 0.6s;
             p{
@@ -173,7 +173,30 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
+.thirdElementContainer{
+    @include centerDiv(column);
+    width: 100%;
+    margin-top: 20vmin;
+    background-color: #ebebeb;
+    padding: 15vmin 0;
+    .title{
+        @include centerDiv(row);
+        width: 100%;
+        margin-bottom: 15vmin;
+        h1{
+            font-size: 6vh;
+            width: 150vmin;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    .video{
+        @include centerDiv(row);
+        width: 90%;
+        border: 1px solid black;
+        padding: 40vmin 0;
+    }
+}
 
 
 
