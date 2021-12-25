@@ -468,4 +468,130 @@ footer {
 .secondElementContainer .coachingTips .tips .mouth .tip[middle] {
   margin: 42vmin 5vmin 0 5vmin;
 }
+
+.thirdElementContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10vmin 0;
+  margin: 15vmin 0;
+  background-color: #ebebeb;
+}
+
+.thirdElementContainer .firstLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.thirdElementContainer .firstLine img {
+  width: 60vmin;
+}
+
+.thirdElementContainer .firstLine img:hover {
+  cursor: pointer;
+}
+
+.thirdElementContainer .firstLine * {
+  margin: 2vmin 10vmin;
+}
+
+.thirdElementContainer .firstLine .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2vmin;
+  width: 80vmin;
+}
+
+.thirdElementContainer .firstLine .text p {
+  font-size: 3vh;
+  text-align: center;
+  font-weight: 600;
+}
+
+.thirdElementContainer .secondLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.thirdElementContainer .secondLine img {
+  width: 60vmin;
+}
+
+.thirdElementContainer .secondLine img:hover {
+  cursor: pointer;
+}
+
+.thirdElementContainer .secondLine * {
+  margin: 2vmin 10vmin;
+}
+
+.thirdElementContainer .secondLine .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2vmin;
+  width: 80vmin;
+}
+
+.thirdElementContainer .secondLine .text p {
+  font-size: 3vh;
+  text-align: center;
+  font-weight: 600;
+}
 /*# sourceMappingURL=coaching.css.map */

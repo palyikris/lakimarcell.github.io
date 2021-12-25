@@ -130,3 +130,56 @@
         }
     }
 }
+.thirdElementContainer{
+    width: 100%;
+    @include centerDiv(column);
+    padding: 10vmin 0;
+    margin: 15vmin 0;
+    background-color: #ebebeb;
+    .firstLine{
+        @include centerDiv(row);
+        width: 100%;
+        img{
+            width: 60vmin;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        *{
+            margin: 2vmin 10vmin;
+        }
+        .text{
+            @include centerDiv(row);
+            padding: 2vmin;
+            width: 80vmin;
+            p{
+                font-size: 3vh;
+                text-align: center;
+                font-weight: 600
+            }
+        }
+    }
+    .secondLine{
+        @include centerDiv(row);
+        width: 100%;
+        img{
+            width: 60vmin;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        *{
+            margin: 2vmin 10vmin;
+        }
+        .text{
+            @include centerDiv(row);
+            padding: 2vmin;
+            width: 80vmin;
+            p{
+                font-size: 3vh;
+                text-align: center;
+                font-weight: 600
+            }
+        }
+    }
+}
