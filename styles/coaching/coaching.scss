@@ -1,0 +1,132 @@
+@import "./../uniformStyles/uniform";
+.topnav{
+    @include topnav();
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: absolute;
+    &:hover{
+        border: 1px solid white;
+    }
+    a{
+        color: white
+    }
+}
+.firstElementContainer{
+    @include centerDiv(column);
+    padding: 0 0 15vmin 0;
+    width: 100%;
+    background: url("../../public/coaching\ rész\ háttérkép.jpg");
+    .firstText{
+        @include centerDiv(column);
+        margin-top: 40vmin;
+        color: white;
+        .title{
+            width: 100%;
+            @include centerDiv(row);
+            margin-bottom: 4vmin;
+            h1{
+                font-weight: bold;
+                font-size: 8vh;
+                text-transform: uppercase;
+            }
+        }
+        .description {
+            width: 100%;
+            @include centerDiv(column);
+            h3{
+                font-size: 3vh;
+                margin-bottom: 3vmin;
+            }
+            p{
+                font-size: 2vh;
+            }
+        }
+        .button{
+            width: 100%;
+            @include centerDiv(row);
+            margin-top: 8vmin;
+            button{
+                padding: 3vmin 5vmin;
+                background-color: $buttonColor;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-size: 3vh;;
+            }
+        }
+    }
+}
+.secondElementContainer{
+    width: 100%;
+    @include centerDiv(column);
+    padding: 10vmin 0;
+    margin: 15vmin 0;
+    .coachingTips{
+        width: 100%;
+        @include centerDiv(column);
+        .title{
+            width: 100%;
+            @include centerDiv(row);
+            justify-content: flex-start;
+            padding: 3vmin 0 3vmin 5vmin;
+            margin-bottom: 10vmin;
+            h1{
+                font-size: 5vh;
+            }
+        }
+        .tips{
+            @include centerDiv(column);
+            width: 100%;
+            flex-wrap: wrap;
+            margin-top: 15vmin;
+            .eyes{
+                @include centerDiv(row);
+                justify-content: space-between;
+                .tip{
+                    background-color: $boxBgColor;
+                    margin: 3vmin 10vmin;
+                    width: 25vmin;
+                    height: 25vmin;
+                    border-radius: 100%;
+                    padding: 2vmin;
+                    @include centerDiv(row);
+                    p{
+                        text-align: center;
+                        color: white;
+                        font-size: 1.5vh;
+                    }
+                }
+            }
+            .mouth{
+                @include centerDiv(row);
+                align-items: flex-start;
+                height: auto;
+                .tip{
+                    background-color: $boxBgColor;
+                    margin: 3vmin 0;
+                    width: 25vmin;
+                    height: 25vmin;
+                    border-radius: 100%;
+                    padding: 2vmin;
+                    @include centerDiv(row);
+                    p{
+                        text-align: center;
+                        color: white;
+                        font-size: 1.5vh;
+                    }
+                }
+                .tip[second]{
+                    margin-top: 18vmin;
+                }
+                .tip[third]{
+                    margin-top: 35vmin;
+                }
+                .tip[middle]{
+                    margin: 42vmin 5vmin 0 5vmin;
+                }
+            }
+        }
+    }
+}
