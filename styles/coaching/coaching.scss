@@ -133,7 +133,7 @@
 .thirdElementContainer{
     width: 100%;
     @include centerDiv(column);
-    padding: 10vmin 0;
+    padding: 15vmin 0;
     margin: 15vmin 0;
     background-color: #ebebeb;
     .firstLine{
@@ -180,6 +180,47 @@
                 text-align: center;
                 font-weight: 600
             }
+        }
+    }
+}
+.fourthElementContainer{
+    width: 100%;
+    @include centerDiv(column);
+    padding: 10vmin 0;
+    margin: 15vmin 0;
+    .title{
+        width: 100%;
+        @include centerDiv(column);
+        h1{
+            font-size: 7vh;
+            text-transform: uppercase;
+        }
+    }
+    .video{
+        width: 100%;
+        @include centerDiv(column);
+        margin: 15vmin 0 10vmin 0;
+        p{
+            width: 90%;
+            padding: 40vmin 0;
+            border: 1px solid black;
+            text-align: center;
+        }
+    }
+    .button{
+        width: 100%;
+        @include centerDiv(column);
+        a{
+            padding: 3vmin 5vmin;
+            background-color: $buttonColor;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 3vh;
         }
     }
 }

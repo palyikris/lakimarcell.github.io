@@ -484,7 +484,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10vmin 0;
+  padding: 15vmin 0;
   margin: 15vmin 0;
   background-color: #ebebeb;
 }
@@ -593,5 +593,101 @@ footer {
   font-size: 3vh;
   text-align: center;
   font-weight: 600;
+}
+
+.fourthElementContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10vmin 0;
+  margin: 15vmin 0;
+}
+
+.fourthElementContainer .title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fourthElementContainer .title h1 {
+  font-size: 7vh;
+  text-transform: uppercase;
+}
+
+.fourthElementContainer .video {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15vmin 0 10vmin 0;
+}
+
+.fourthElementContainer .video p {
+  width: 90%;
+  padding: 40vmin 0;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.fourthElementContainer .button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fourthElementContainer .button a {
+  padding: 3vmin 5vmin;
+  background-color: green;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 3vh;
 }
 /*# sourceMappingURL=coaching.css.map */
