@@ -885,6 +885,227 @@ footer {
   margin-top: 5vmin;
 }
 
+.sixthElementContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 20vmin;
+}
+
+.sixthElementContainer .joinOptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.sixthElementContainer .joinOptions .joinOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 10px;
+  padding: 4vmin 3vmin;
+  margin: 5vmin 10vmin;
+  background-color: #4ca162;
+  color: white;
+}
+
+.sixthElementContainer .joinOptions .joinOption .jointTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sixthElementContainer .joinOptions .joinOption .jointTitle p {
+  font-size: 5vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sixthElementContainer .joinOptions .joinOption .joinType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sixthElementContainer .joinOptions .joinOption .joinType p {
+  font-size: 3vh;
+  font-weight: 600;
+  text-align: center;
+  margin: 3vmin 0 15vmin 0;
+}
+
+.sixthElementContainer .joinOptions .joinOption .choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sixthElementContainer .joinOptions .joinOption .choice a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3.5vh;
+  color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.sixthElementContainer .join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10vmin 5vmin;
+  background-color: #ebebeb;
+  width: 90%;
+  border-radius: 0 0 10px 10px;
+}
+
+.sixthElementContainer .join iframe {
+  width: 100vmin;
+  height: 200vmin;
+  padding: 5vmin;
+  border: 1px solid #ebebeb;
+  margin-top: 30vmin;
+}
+
+.sixthElementContainer .join .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 120vmin;
+  margin-top: 20vmin;
+  background-color: #ebebeb;
+}
+
+.sixthElementContainer .join .description p[bold] {
+  font-weight: bold;
+  margin: 10vmin 0;
+}
+
+.sixthElementContainer .join .description p {
+  font-size: 3vh;
+}
+
+.sixthElementContainer .joinIntro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin-top: 20vmin;
+  background-color: #9b6ade;
+  padding: 10vmin 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.sixthElementContainer .joinIntro h1 {
+  font-size: 6vh;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
 footer {
   margin-top: 20vmin;
 }

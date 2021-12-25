@@ -315,6 +315,99 @@
         }
     }
 }
+.sixthElementContainer{
+    @include centerDiv(column);
+    width: 100%;
+    margin-top: 20vmin;
+    .joinOptions{
+        @include centerDiv(row);
+        flex-wrap: wrap;
+        width: 100%;
+        .joinOption{
+            @include centerDiv(column);
+            width: 50vmin;
+            height: 50vmin;
+            border-radius: 10px;
+            padding: 4vmin 3vmin;
+            margin: 5vmin 10vmin;
+            background-color: #4ca162;
+            color: white;
+            .jointTitle{
+                @include centerDiv(row);
+                p{
+                    font-size: 5vh;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+            }
+            .joinType{
+                @include centerDiv(row);
+                p{
+                    font-size: 3vh;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 3vmin 0 15vmin 0;
+                }
+            }
+            .choice{
+                @include centerDiv(row);
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 3.5vh;
+                    color: white;
+                    border-radius: 5px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .join{
+        @include centerDiv(row);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 10vmin 5vmin;
+        background-color: #ebebeb;
+        width: 90%;
+        border-radius: 0 0 10px 10px;
+        iframe{
+            width: 100vmin;
+            height: 200vmin;
+            padding: 5vmin;
+            border: 1px solid #ebebeb;
+            margin-top: 30vmin;
+        }
+        .description{
+            @include centerDiv(column);
+            width: 120vmin;
+            margin-top: 20vmin;
+            background-color: #ebebeb;
+            p[bold]{
+                font-weight: bold;
+                margin: 10vmin 0;
+            }
+            p{
+                font-size: 3vh;
+            }
+        }
+    }
+    .joinIntro{
+        @include centerDiv(row);
+        width: 90%;
+        margin-top: 20vmin;
+        background-color: #9b6ade;
+        padding: 10vmin 0;
+        border-radius: 10px 10px 0 0;
+        h1{
+            font-size: 6vh;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+    }
+}
 
 
 
