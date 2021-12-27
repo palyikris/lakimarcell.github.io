@@ -344,8 +344,23 @@ background: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: reverse-column;
+    flex-direction: column;
     flex-wrap: wrap;
+    margin: 20vmin 20vmin;
+}
+.socialMedia .socialMediaDesc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vmin;
+    margin-top: 5vmin;
+}
+.socialMedia .socialMediaDesc p{
+    color: white;
+    font-weight: 500;
+    font-size: 3vh;
+    text-align: center;
 }
 .socialMedia a{
     width: 20vmin;
@@ -355,7 +370,6 @@ background: white;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 20vmin 20vmin;
     background-color: white;
     border-radius: 100%
 }

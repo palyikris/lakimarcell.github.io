@@ -311,3 +311,90 @@ footer{
     background-color: rgba(41, 140, 54, 1);
     transform: scale(1.1);
 }
+.bonusContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 15vmin;
+    padding: 15vmin 0;
+    background-color: #ebebeb;
+    width: 100%;
+  }
+  
+  .bonus .imgContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  .bonusContainer .imgContainer img {
+    width: 60vmin;
+  }
+  
+  .bonusContainer .quoteContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .bonusContainer .quoteContainer .quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80vmin;
+  }
+  
+  .bonusContainer .quoteContainer .quote h3 {
+    font-size: 5vh;
+    font-weight: bold;
+    font-style: italic;
+    margin: 1vmin 0;
+    text-align: center;
+  }
+  
+  .bonusContainer .quoteContainer p {
+    text-align: center;
+    font-size: 2.5vh;
+    font-style: italic;
+    margin-top: 5vmin;
+  }

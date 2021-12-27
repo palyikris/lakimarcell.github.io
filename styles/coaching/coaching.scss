@@ -5,11 +5,13 @@
     color: white;
     border: none;
     position: absolute;
-    &:hover{
-        border: 1px solid white;
-    }
     a{
-        color: white
+        color: white;
+        &:hover{
+            border: 1px solid white;
+            background-color: transparent;
+            color: white;
+        }
     }
 }
 .firstElementContainer{
@@ -17,9 +19,10 @@
     padding: 0 0 15vmin 0;
     width: 100%;
     background: url("../../public/coaching\ rész\ háttérkép.jpg");
+    @include bgPic();
     .firstText{
         @include centerDiv(column);
-        margin-top: 40vmin;
+        margin-top: 70vmin;
         color: white;
         .title{
             width: 100%;

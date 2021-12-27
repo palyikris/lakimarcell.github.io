@@ -10,7 +10,8 @@
         color: white;
         &:hover{
             border: 1px solid white;
-            
+            background-color: transparent !important;
+            color: white !important;
         }
     }
 }

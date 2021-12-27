@@ -1,0 +1,55 @@
+@import "./../uniformStyles/uniform";
+
+
+
+.topnav{
+    @include topnav();
+    position: absolute;
+}
+.join{
+    @include centerDiv(row);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10vmin 5vmin;
+    background-color: #ebebeb;
+    width: 90%;
+    border-radius: 0 0 10px 10px;
+    iframe{
+        width: 100vmin;
+        height: 200vmin;
+        padding: 5vmin;
+        border: 1px solid #ebebeb;
+        margin-top: 30vmin;
+    }
+    .description{
+        @include centerDiv(column);
+        width: 120vmin;
+        margin-top: 20vmin;
+        background-color: #ebebeb;
+        p[bold]{
+            font-weight: bold;
+            margin: 10vmin 0;
+        }
+        p{
+            font-size: 3vh;
+        }
+    }
+}
+.joinIntro{
+    @include centerDiv(row);
+    width: 90%;
+    margin-top: 20vmin;
+    background-color: #9b6ade;
+    padding: 10vmin 0;
+    border-radius: 10px 10px 0 0;
+    h1{
+        font-size: 6vh;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+}
+footer{
+    margin-top: 10vmin;
+}
