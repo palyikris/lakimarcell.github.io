@@ -72,7 +72,7 @@ background: white;
     flex-direction: column;
     width: 100%;    
 }
-.firstElementContainer .description{
+.firstElementContainer .desc{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,3 +398,134 @@ footer{
     font-style: italic;
     margin-top: 5vmin;
   }
+  #thirdElementContainer{
+    background-color: #ebebeb;
+    padding: 15vmin 10vmin;
+    width: 100%;
+    overflow: hidden;
+    margin: 20vmin 0;
+}
+.thirdElement{
+    width: 1430vmin;
+    height: 60vmin;
+    margin: 0 0 0 -1050vmin;
+    position: relative;
+    animation-name: slideAnimation;
+    animation-duration: 70s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+.review{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 60vmin;
+    height: 60vmin;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    transition: all 0.7s;
+    padding-top: 30vmin;
+    position: relative;
+    float: left;
+    margin-right: 10vmin;
+}
+@keyframes slideAnimation {
+    0%{left: 0vmin;}
+    3%{left: 70vmin;}
+    6%{left: 70vmin;}
+    9%{left: 140vmin;}
+    12%{left: 140vmin;}
+    15%{left: 210vmin;}
+    18%{left: 210vmin;}
+    21%{left: 280vmin;}
+    24%{left: 280vmin;}
+    27%{left: 350vmin;}
+    30%{left: 350vmin;}
+    33%{left: 420vmin;}
+    36%{left: 420vmin;}
+    39%{left: 490vmin;}
+    42%{left: 490vmin;}
+    45%{left: 560vmin;}
+    48%{left: 560vmin;}
+    51%{left: 630vmin;}
+    54%{left: 630vmin;}
+    57%{left: 700vmin;}
+    60%{left: 700vmin;}
+    63%{left: 770vmin;}
+    66%{left: 770vmin;}
+    69%{left: 840vmin;}
+    72%{left: 840vmin;}
+    75%{left: 910vmin;}
+    78%{left: 910vmin;}
+    81%{left: 980vmin;}
+    84%{left: 980vmin;}
+    87%{left: 1050vmin;}
+    90%{left: 1050vmin;}
+    100%{left: 0vmin;}
+}
+.description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding: 3vmin 5vmin 3vmin 3vmin;
+    height: 15vmin;
+    text-align: left;
+}
+.dataContainer{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    height: auto;
+}
+
+.imageOf{
+    width: 40vmin;
+    height: 40vmin;
+    
+    border-radius: 10px 10px 0 0
+}
+.description *{
+    margin: 3vmin 0;
+}
+.name{
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    padding: 3vmin 3vmin 0 3vmin;
+}
+.opinion{
+    width: 40vmin;
+    opacity: 0.7;
+    text-align: left;
+}
+.displayedOpinion{
+    display: flex;
+}
+.thirdElementTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebebeb;
+    width: 100%;
+    padding-top: 7vmin;
+    padding: 15vmin 0;
+}
+.thirdElementTitle h1{
+    font-size: 5vh;
+    margin-bottom: 5vmin;
+    text-transform: uppercase;
+}
+.thirdElementTitle h3{
+    opacity: .4;
+}

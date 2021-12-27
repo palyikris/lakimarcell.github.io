@@ -272,12 +272,15 @@
         }
     }
     function next(){
-        if(index === stories.length - 1){
-
+        console.log(index, stories.length - 1)
+        if(index === stories.length-1){
+            stories[index].style.opacity = "0"
+            index = 0;
+            stories[index].style.opacity = "1"
         }
         else{
             index++
-            for(var i = 0; i < stories.length-1; i++){
+            for(var i = 0; i < stories.length; i++){
                 if(i === index){
                     stories[i].style.opacity = "1";
                 }

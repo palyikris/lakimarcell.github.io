@@ -664,34 +664,33 @@ footer {
 }
 
 .fourthElementContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-color: #ebebeb;
+  padding: 15vmin 10vmin;
   width: 100%;
-  padding: 15vmin 0;
+  overflow: hidden;
 }
 
 .fourthElement {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100%;
+  width: 1430vmin;
+  height: 60vmin;
+  margin: 0 0 0 -1050vmin;
+  position: relative;
+  -webkit-animation-name: slideAnimation;
+          animation-name: slideAnimation;
+  -webkit-animation-duration: 70s;
+          animation-duration: 70s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .review {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -702,7 +701,8 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40vmin;
+  width: 60vmin;
+  height: 60vmin;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -710,23 +710,223 @@ footer {
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   padding-top: 30vmin;
-  border: 2px solid #ebebeb;
+  position: relative;
+  float: left;
+  margin-right: 10vmin;
+}
+
+@-webkit-keyframes slideAnimation {
+  0% {
+    left: 0vmin;
+  }
+  3% {
+    left: 70vmin;
+  }
+  6% {
+    left: 70vmin;
+  }
+  9% {
+    left: 140vmin;
+  }
+  12% {
+    left: 140vmin;
+  }
+  15% {
+    left: 210vmin;
+  }
+  18% {
+    left: 210vmin;
+  }
+  21% {
+    left: 280vmin;
+  }
+  24% {
+    left: 280vmin;
+  }
+  27% {
+    left: 350vmin;
+  }
+  30% {
+    left: 350vmin;
+  }
+  33% {
+    left: 420vmin;
+  }
+  36% {
+    left: 420vmin;
+  }
+  39% {
+    left: 490vmin;
+  }
+  42% {
+    left: 490vmin;
+  }
+  45% {
+    left: 560vmin;
+  }
+  48% {
+    left: 560vmin;
+  }
+  51% {
+    left: 630vmin;
+  }
+  54% {
+    left: 630vmin;
+  }
+  57% {
+    left: 700vmin;
+  }
+  60% {
+    left: 700vmin;
+  }
+  63% {
+    left: 770vmin;
+  }
+  66% {
+    left: 770vmin;
+  }
+  69% {
+    left: 840vmin;
+  }
+  72% {
+    left: 840vmin;
+  }
+  75% {
+    left: 910vmin;
+  }
+  78% {
+    left: 910vmin;
+  }
+  81% {
+    left: 980vmin;
+  }
+  84% {
+    left: 980vmin;
+  }
+  87% {
+    left: 1050vmin;
+  }
+  90% {
+    left: 1050vmin;
+  }
+  100% {
+    left: 0vmin;
+  }
+}
+
+@keyframes slideAnimation {
+  0% {
+    left: 0vmin;
+  }
+  3% {
+    left: 70vmin;
+  }
+  6% {
+    left: 70vmin;
+  }
+  9% {
+    left: 140vmin;
+  }
+  12% {
+    left: 140vmin;
+  }
+  15% {
+    left: 210vmin;
+  }
+  18% {
+    left: 210vmin;
+  }
+  21% {
+    left: 280vmin;
+  }
+  24% {
+    left: 280vmin;
+  }
+  27% {
+    left: 350vmin;
+  }
+  30% {
+    left: 350vmin;
+  }
+  33% {
+    left: 420vmin;
+  }
+  36% {
+    left: 420vmin;
+  }
+  39% {
+    left: 490vmin;
+  }
+  42% {
+    left: 490vmin;
+  }
+  45% {
+    left: 560vmin;
+  }
+  48% {
+    left: 560vmin;
+  }
+  51% {
+    left: 630vmin;
+  }
+  54% {
+    left: 630vmin;
+  }
+  57% {
+    left: 700vmin;
+  }
+  60% {
+    left: 700vmin;
+  }
+  63% {
+    left: 770vmin;
+  }
+  66% {
+    left: 770vmin;
+  }
+  69% {
+    left: 840vmin;
+  }
+  72% {
+    left: 840vmin;
+  }
+  75% {
+    left: 910vmin;
+  }
+  78% {
+    left: 910vmin;
+  }
+  81% {
+    left: 980vmin;
+  }
+  84% {
+    left: 980vmin;
+  }
+  87% {
+    left: 1050vmin;
+  }
+  90% {
+    left: 1050vmin;
+  }
+  100% {
+    left: 0vmin;
+  }
 }
 
 .description {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
   width: 100%;
   border-radius: 0 0 10px 10px;
-  padding: 3vmin;
+  padding: 3vmin 5vmin 3vmin 3vmin;
   height: 15vmin;
   text-align: left;
 }
@@ -734,11 +934,8 @@ footer {
 .dataContainer {
   background-color: white;
   border-radius: 0 0 10px 10px;
-}
-
-.review:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  width: 100%;
+  border-top: 1px solid #ebebeb;
 }
 
 .imageOf {
@@ -761,7 +958,7 @@ footer {
 }
 
 .opinion {
-  width: 20vmin;
+  width: 40vmin;
   opacity: 0.7;
   text-align: left;
 }
@@ -786,6 +983,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #ebebeb;
   width: 100%;
   padding-top: 7vmin;
   padding: 15vmin 0;
