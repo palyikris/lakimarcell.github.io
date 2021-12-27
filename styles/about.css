@@ -126,19 +126,55 @@ background: white;
     align-items: center;
     flex-direction: column;
     padding: 15vmin 0;
-    background: url("../public/profi\ baszod.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .thirdElementTitle{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15vmin;
+    margin: 5vmin 0 30vmin 0;
     color: black;
     font-weight: bold;
+}
+.myStoryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+#myStory{
+    margin: 0;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80vmin;
+}
+.controls .prev, .controls .next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ebebeb;
+    margin: 0 5vmin;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+.controls .prev:hover, .controls .next:hover{
+    cursor: pointer;
+    background-color: #c7c5c5;
+}
+.controls .prev p, .controls .next p{
+    font-size: 7vh;
+    font-weight: 500;
+}
+.aboutPic{
+    width: 80vmin;
+    border-radius: 10px;
+    margin-top: 15vmin;
 }
 .myStory{
     display: flex;
@@ -150,10 +186,17 @@ background: white;
     font-weight: bold;
     background-color: rgba(171, 171, 171, .4);
     border-radius: 10px;
-    width: 50vmin;
-    padding: 5vmin 3vmin;
+    width: 70vmin;
+    height: 70vmin;
+    padding: 5vmin;
     backdrop-filter: 5px;
     transition: all .6s;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+#storyReplacable{
+    transition: all .7s;
 }
 .myStory:hover{
     background-color: rgba(171, 171, 171, .7);
@@ -163,12 +206,7 @@ background: white;
     text-align: center;
     margin: 12vmin 0;
 }
-.myStory:nth-child(2n+1){
-    margin-left: 120vmin;
-}
-.myStory:nth-child(2n+0){
-    margin-right: 120vmin;
-}
+
 .thirdElementContainer .buttonContainer{
     width: 100%;
     display: flex;

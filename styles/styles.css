@@ -155,50 +155,81 @@ background: white;
     transform: scale(1.1);
 }
 .thirdElementContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     background-color: #ebebeb;
-    padding: 15vmin 0;
+    padding: 15vmin 10vmin;
+    width: 100%;
+    overflow: hidden;
 }
 .thirdElement{
-    display: flex;
-    justify-content: space-evenly;
-    align-items:  flex-start;
-    width: 100%;
+    width: 770vmin;
+    height: 60vmin;
+    margin: 0 0 0 -700vmin;
+    position: relative;
+    animation-name: slideAnimation;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 .review{
-    display: none;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    width: 40vmin;
+    width: 60vmin;
+    height: 60vmin;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
     transition: all 0.7s;
     padding-top: 30vmin;
+    position: relative;
+    float: left;
+    margin-right: 10vmin;
+}
+@keyframes slideAnimation {
+    0%{left: 0vmin;}
+    4.5%{left: 70vmin;}
+    9%{left: 70vmin;}
+    13.5%{left: 140vmin;}
+    18%{left: 140vmin;}
+    22.5%{left: 210vmin;}
+    27%{left: 210vmin;}
+    31.5%{left: 280vmin;}
+    36%{left: 280vmin;}
+    40.5%{left: 350vmin;}
+    45%{left: 350vmin;}
+    49.5%{left: 420vmin;}
+    54%{left: 420vmin;}
+    58.5%{left: 490vmin;}
+    63%{left: 490vmin;}
+    67.5%{left: 560vmin;}
+    72%{left: 560vmin;}
+    76.5%{left: 630vmin;}
+    81%{left: 630vmin;}
+    85.5%{left: 700vmin;}
+    90%{left: 700vmin;}
+    100%{left: 0vmin;}
 }
 .description{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: white;
     width: 100%;
     border-radius: 0 0 10px 10px;
-    padding: 3vmin;
+    padding: 3vmin 5vmin 3vmin 3vmin;
     height: 15vmin;
     text-align: left;
 }
 .dataContainer{
     background-color: white;
     border-radius: 0 0 10px 10px;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
 }
-.review:hover{
-    transform: scale(1.2);
-}
+
 .imageOf{
     width: 40vmin;
     height: 40vmin;
@@ -217,7 +248,7 @@ background: white;
     padding: 3vmin 3vmin 0 3vmin;
 }
 .opinion{
-    width: 20vmin;
+    width: 40vmin;
     opacity: 0.7;
     text-align: left;
 }
