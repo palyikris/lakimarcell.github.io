@@ -1338,4 +1338,178 @@ footer {
     width: 50vmin;
   }
 }
+
+@media (min-width: 421px) and (max-width: 750px) {
+  .mainContainer {
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  .topnav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120vmin;
+    position: absolute;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .firstElementContainer {
+    margin-top: 120vmin;
+  }
+  .firstElementContainer h1 {
+    font-size: 6vh;
+    margin: 0;
+    width: 80vmin;
+  }
+  .secondElementContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .secondElementContainer .secondElementDescription {
+    margin-top: 20vmin;
+  }
+  .thirdElementContainer .thirdElement {
+    margin: 0 0 0 -1060vmin;
+  }
+  .thirdElementContainer .thirdElement .review .dataContainer .description {
+    font-size: 2.5vh;
+  }
+  .thirdElementTitle {
+    padding: 15vmin 5vmin;
+  }
+  .thirdElementTitle h1 {
+    font-size: 7vh;
+    text-align: center;
+  }
+  .thirdElementTitle h3 {
+    margin-top: 15vmin;
+  }
+  .fourthElementContainer .fourthElementTitle {
+    padding: 5vmin;
+  }
+  .fourthElementContainer .fourthElementTitle h4 {
+    width: 90%;
+    text-align: center;
+    margin-top: 10vmin;
+  }
+  .fourthElementContainer .purchaseOptions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fourthElementContainer .purchaseOptions .purchaseOption {
+    height: 70vmin;
+    width: 60vmin;
+    margin-top: 10vmin;
+  }
+  .fourthElementContainer .purchaseOptions .purchaseOption a {
+    margin-top: 10vmin;
+  }
+  .fourthElementContainer .purchaseOptions .purchaseOption .purchaseTitle p {
+    font-size: 4vh;
+  }
+  .connection {
+    background-position: 30% 30%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .connection .socialMedias .socialMedia .socialMediaDesc {
+    width: 60vmin;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 15vmin 5vmin;
+    margin-top: 0;
+  }
+  footer .contacts {
+    margin-top: 10vmin;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 950px) {
+  .topnav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120vmin;
+    position: absolute;
+  }
+  .firstElementContainer {
+    margin-top: 120vmin;
+    background-position: 70% 50%;
+  }
+  .firstElementContainer h1 {
+    font-size: 6vh;
+    margin: 0;
+    width: 100vmin;
+  }
+  .fourthElementContainer .fourthElementTitle {
+    padding: 5vmin;
+  }
+  .fourthElementContainer .fourthElementTitle h1 {
+    font-size: 7vh;
+  }
+  .fourthElementContainer .fourthElementTitle h4 {
+    width: 120vmin;
+    text-align: center;
+    margin-top: 10vmin;
+  }
+  .fourthElementContainer .purchaseOptions {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .fourthElementContainer .purchaseOptions .purchaseOption {
+    height: 75vmin;
+  }
+  .fourthElementContainer .purchaseOptions .purchaseOption a {
+    margin-top: 5vmin;
+  }
+  .fourthElementContainer .purchaseOptions .purchaseOption .purchaseDesc {
+    height: 40vmin;
+    text-align: center;
+  }
+  .thirdElementTitle {
+    padding: 10vmin;
+  }
+  .thirdElementTitle h1, .thirdElementTitle h3 {
+    text-align: center;
+    font-size: 6vh;
+  }
+  .thirdElementTitle h3 {
+    font-size: 3vh;
+    margin-top: 10vmin;
+  }
+  .thirdElementContainer .thirdElement .review .dataContainer .description {
+    font-size: 2.5vh;
+  }
+}
 /*# sourceMappingURL=index.css.map */

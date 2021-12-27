@@ -115,6 +115,7 @@ background: white;
 }
 .mainContainer{
     @include centerDiv(column);
+    
 }
 @mixin bgPic {
     background-repeat: no-repeat;

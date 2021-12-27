@@ -644,3 +644,163 @@ footer{
         }
     }
 }
+@media  (min-width: 421px) and (max-width: 750px) {
+    .mainContainer{
+        overflow: hidden;
+        max-width: 100%;
+        padding: 0;
+        width: 100%;
+    }
+    .topnav{
+        flex-direction: column;
+        height: 120vmin;
+        position: absolute;
+        flex-wrap: nowrap;
+    }
+    .firstElementContainer{
+        margin-top: 120vmin;
+        h1{
+            font-size: 6vh;
+            margin: 0;
+            width: 80vmin;
+        }
+    }
+    .secondElementContainer{
+        flex-direction: column;
+        .secondElementDescription{
+            margin-top: 20vmin;
+        }
+    }
+    .thirdElementContainer{
+        .thirdElement{
+            margin: 0 0 0 -1060vmin;
+            .review{
+                .dataContainer{
+                    .description{
+                        font-size: 2.5vh;
+                    }
+                }
+            }
+        }
+    }
+    .thirdElementTitle{
+        padding: 15vmin 5vmin;
+        h1{
+            font-size: 7vh;
+            text-align: center;
+        }
+        h3{
+            margin-top: 15vmin;
+        }
+    }
+    .fourthElementContainer{
+        .fourthElementTitle{
+            padding: 5vmin;
+            h4{
+                width: 90%;
+                text-align: center;
+                margin-top: 10vmin;
+            }
+        }
+        .purchaseOptions{
+            @include centerDiv(column);
+            .purchaseOption{
+                height: 70vmin;
+                width: 60vmin;
+                margin-top: 10vmin;
+                a{
+                    margin-top: 10vmin;
+                }
+                .purchaseTitle{
+                    p{
+                        font-size: 4vh;
+                    }
+                }
+            }
+        }
+    }
+    .connection{
+        background-position: 30% 30%;
+        flex-wrap: wrap;
+        .socialMedias{
+            .socialMedia{
+                .socialMediaDesc{
+                    width: 60vmin;
+                }
+            }
+        }
+        margin-bottom: 0;
+    }
+    footer{
+        @include centerDiv(column);
+        .contacts{
+            margin-top: 10vmin;
+        }
+        padding: 15vmin 5vmin;
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 950px){
+    .topnav{
+        flex-direction: column;
+        height: 120vmin;
+        position: absolute;
+    }
+    .firstElementContainer{
+        margin-top: 120vmin;
+        background-position: 70% 50%;
+        h1{
+            font-size: 6vh;
+            margin: 0;
+            width: 100vmin;
+        }
+    }
+    .fourthElementContainer{
+        .fourthElementTitle{
+            padding: 5vmin;
+            h1{
+                font-size: 7vh;
+            }
+            h4{
+                width: 120vmin;
+                text-align: center;
+                margin-top: 10vmin;
+            }
+        }
+        .purchaseOptions{
+            flex-wrap: wrap;
+            .purchaseOption{
+                height: 75vmin;
+                a{
+                    margin-top: 5vmin;
+                }
+                .purchaseDesc{
+                    height: 40vmin;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .thirdElementTitle{
+        padding: 10vmin;
+        h1, h3{
+            text-align: center;
+            font-size: 6vh;
+        }
+        h3{
+            font-size: 3vh;
+            margin-top: 10vmin;
+        }
+    }
+    .thirdElementContainer{
+        .thirdElement{
+            .review{
+                .dataContainer{
+                    .description{
+                        font-size: 2.5vh;
+                    }
+                }
+            }
+        }
+    }
+}
