@@ -1,3 +1,5 @@
+@import "../uniformStyles/uniform";
+
 *{
     margin: 0;
     padding: 0;
@@ -262,7 +264,7 @@ footer{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    background: url(../public/ba\ háttér\ a\ csomaghoz.jpg);
+    background: url("../../public/ba\ háttér\ a\ csomaghoz.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -528,4 +530,210 @@ footer{
 }
 .thirdElementTitle h3{
     opacity: .4;
+}
+@media screen and (max-width: 1220px) {
+    .topnav{
+        flex-direction: column;
+        height: 120vmin;
+        background-color: black;
+
+    }
+    .firstElementContainer{
+        margin-top: 120vmin;
+        justify-content: flex-start;
+        overflow: hidden;
+        video{
+            height: 100vmin;
+            width: 200vmin;
+        }
+        .title{
+            h1{
+                font-size: 3vh;
+                padding: 3vmin 0;
+            }
+        }
+        #description{
+            margin-top: 10vmin;
+        }
+    }
+    .secondElementContainer{
+        margin-top: 20vmin;
+        .listOfServices{
+            width: 100%;
+            .items{
+                width: 60vmin;
+                height: 60vmin;
+                p{
+                    font-size: 2vh;
+                    
+                }
+            }
+            .items[title]{
+                margin: 0;
+                margin-bottom: 8vmin;
+                width: 100%;
+                height: auto;
+                p{
+                    font-size: 3.5vh;
+                    text-align: center;
+                }
+            }
+            .items[notItem]{
+
+            }
+        }
+    }
+    .thirdElementContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        div{
+            flex-direction: column;
+        }
+        .desktop{
+            img, h3{
+                margin: 0;
+            }
+            h3{
+                text-align: center;
+                margin: 10vmin 0 20vmin 0;
+            }
+        }
+        .mobile{
+            h3{
+                text-align: center;
+                margin: 20vmin 0 10vmin 0;
+            }
+            img{
+                margin: 0;
+            }
+        }
+    }
+    .fourthElementContainer{
+        .fourthElementTitle{
+            h1{
+                font-size: 4vh;
+                padding: 4vmin;
+                text-align: center;
+            }
+        }
+    }
+    .fifthElementContainer{
+        .title{
+            width: 100%;
+            @include centerDiv(row);
+            h1{
+                font-size: 5vh;
+                padding: 4vmin;
+                text-align: center;
+            }
+        }
+        .purchaseItems{
+            .purchaseItem{
+                width: 60vmin;
+                height: 60vmin;
+                .purchaseTitle{
+                    margin-bottom: 25vmin;
+                    p{
+                        font-size: 3.5vh;
+                    }
+                }
+            }
+        }
+    }
+    #thirdElementContainer{
+        width: 100%;
+        .thirdElement{
+            margin: 0 0 0 -1605vmin;
+            width: 1700vmin;
+            .review{
+                width: 90vmin;
+                height: 90vmin;
+                .dataContainer{
+                    padding: 3vmin;
+                    .name{
+                        margin-bottom: 3vmin;
+                        font-size: 2.5vh;
+                    }
+                    .description{
+                        font-size: 1.7vh;
+                    }
+                }
+            }
+        }
+        @keyframes slideAnimation {
+            0%{left: 0vmin;}
+            3%{left: 100vmin;}
+            6%{left: 100vmin;}
+            9%{left: 200vmin;}
+            12%{left: 200vmin;}
+            15%{left: 300vmin;}
+            18%{left: 300vmin;}
+            21%{left: 400vmin;}
+            24%{left: 400vmin;}
+            27%{left: 500vmin;}
+            30%{left: 500vmin;}
+            33%{left: 600vmin;}
+            36%{left: 600vmin;}
+            39%{left: 700vmin;}
+            42%{left: 700vmin;}
+            45%{left: 800vmin;}
+            48%{left: 800vmin;}
+            51%{left: 900vmin;}
+            54%{left: 900vmin;}
+            57%{left: 1000vmin;}
+            60%{left: 1000vmin;}
+            63%{left: 1100vmin;}
+            66%{left: 1100vmin;}
+            69%{left: 1200vmin;}
+            72%{left: 1200vmin;}
+            75%{left: 1300vmin;}
+            78%{left: 1300vmin;}
+            81%{left: 1400vmin;}
+            84%{left: 1400vmin;}
+            87%{left: 1500vmin;}
+            90%{left: 1500vmin;}
+            100%{left: 0vmin;}
+        }
+    }
+    .bonusContainer{
+        flex-direction: column;
+        .imgContainer{
+            width: 100%;
+            @include centerDiv(row);
+            img{
+                width: 100vmin;
+            }
+        }
+        .quoteContainer{
+            width: 100%;
+            padding: 0 4vmin;
+            .quote{
+                width: 100%;
+                h3{
+                    font-size: 3.5vh;
+                }
+            }
+            p{
+                font-size: 1.8vh;
+                margin-top: 10vmin;
+            }
+        }
+    }
+    footer{
+        flex-direction: column;
+        padding: 20vmin 5vmin;
+        justify-content: center;
+        align-items: center;
+        .contacts{
+            margin-top: 10vmin;
+            .contact{
+                p{
+                    flex-direction: column;
+                    img{
+                        width: 50vmin;
+                    }
+                }
+            }
+        }
+    }
 }

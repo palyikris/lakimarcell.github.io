@@ -259,3 +259,31 @@ footer{
 #myContact p img{
     margin-left: 5vmin;
 }
+@media screen and (max-width: 920px) {
+    .topnav{
+        flex-direction: column;
+        height: 120vmin;
+        position: absolute;
+    }   
+    .firstElementContainer{
+        margin-top: 130vmin;
+        flex-direction: column;
+        img{
+            margin-bottom: 12vmin;
+        }
+    }
+    footer{
+        flex-wrap: wrap;
+        .contacts{
+            margin-top: 5vmin;
+            .contact{
+                p{
+                    flex-direction: column;
+                    img{
+                        margin-top: 4vmin;
+                    }
+                }
+            }
+        }
+    }
+}
