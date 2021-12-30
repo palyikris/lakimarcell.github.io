@@ -121,7 +121,7 @@ footer {
   z-index: 10;
   top: 0;
   color: black;
-  background-color: transparent !important;
+  background-color: transparent;
   border: none;
   color: white;
   position: absolute;
@@ -1308,5 +1308,338 @@ footer {
 
 footer {
   margin-top: 20vmin;
+}
+
+@media screen and (max-width: 1320px) {
+  #transparentTopnav, .topnav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120vmin;
+    background-color: black;
+  }
+  .firstElementContainer {
+    margin-top: 120vmin;
+  }
+  .firstElementContainer .firstText {
+    width: 100%;
+  }
+  .firstElementContainer .firstText .title h1 {
+    font-size: 3vh;
+    padding: 3vmin;
+    text-align: center;
+  }
+  .firstElementContainer .firstText .desc img {
+    width: 50vmin;
+    margin-left: 15vmin;
+  }
+  .secondElementContainer .listOfAdvs {
+    margin-top: 15vmin;
+  }
+  .secondElementContainer .listOfAdvs .adv {
+    width: 65vmin;
+    height: 65vmin;
+  }
+  .secondElementContainer .listOfAdvs .adv p {
+    font-size: 2.5vh;
+  }
+  .secondElementContainer .listOfAdvs .adv[title] {
+    padding: 0;
+  }
+  .secondElementContainer .listOfAdvs .adv[title] p {
+    font-size: 4vh;
+  }
+  .secondElementContainer .listOfDis {
+    margin-top: 10vmin;
+  }
+  .secondElementContainer .listOfDis .dis {
+    width: 65vmin;
+    height: 65vmin;
+  }
+  .secondElementContainer .listOfDis .dis p {
+    font-size: 2.5vh;
+  }
+  .secondElementContainer .listOfDis .dis[title] {
+    padding: 0;
+  }
+  .secondElementContainer .listOfDis .dis[title] p {
+    font-size: 4vh;
+  }
+  .thirdElementContainer .title h1 {
+    font-size: 3vh;
+  }
+  .thirdElementTitle h1 {
+    font-size: 3vh;
+    text-align: center;
+  }
+  .thirdElementTitle h3 {
+    font-size: 1.8vh;
+    padding: 7vmin 4vmin;
+    text-align: center;
+  }
+  .fourthElementContainer {
+    width: 100%;
+  }
+  .fourthElementContainer .fourthElement {
+    margin: 0 0 0 -1605vmin;
+    width: 1700vmin;
+  }
+  .fourthElementContainer .fourthElement .review {
+    width: 90vmin;
+    height: 90vmin;
+  }
+  .fourthElementContainer .fourthElement .review .dataContainer {
+    padding: 3vmin;
+  }
+  .fourthElementContainer .fourthElement .review .dataContainer .name {
+    margin-bottom: 3vmin;
+    font-size: 2.5vh;
+  }
+  .fourthElementContainer .fourthElement .review .dataContainer .description {
+    font-size: 1.7vh;
+  }
+  @-webkit-keyframes slideAnimation {
+    0% {
+      left: 0vmin;
+    }
+    3% {
+      left: 100vmin;
+    }
+    6% {
+      left: 100vmin;
+    }
+    9% {
+      left: 200vmin;
+    }
+    12% {
+      left: 200vmin;
+    }
+    15% {
+      left: 300vmin;
+    }
+    18% {
+      left: 300vmin;
+    }
+    21% {
+      left: 400vmin;
+    }
+    24% {
+      left: 400vmin;
+    }
+    27% {
+      left: 500vmin;
+    }
+    30% {
+      left: 500vmin;
+    }
+    33% {
+      left: 600vmin;
+    }
+    36% {
+      left: 600vmin;
+    }
+    39% {
+      left: 700vmin;
+    }
+    42% {
+      left: 700vmin;
+    }
+    45% {
+      left: 800vmin;
+    }
+    48% {
+      left: 800vmin;
+    }
+    51% {
+      left: 900vmin;
+    }
+    54% {
+      left: 900vmin;
+    }
+    57% {
+      left: 1000vmin;
+    }
+    60% {
+      left: 1000vmin;
+    }
+    63% {
+      left: 1100vmin;
+    }
+    66% {
+      left: 1100vmin;
+    }
+    69% {
+      left: 1200vmin;
+    }
+    72% {
+      left: 1200vmin;
+    }
+    75% {
+      left: 1300vmin;
+    }
+    78% {
+      left: 1300vmin;
+    }
+    81% {
+      left: 1400vmin;
+    }
+    84% {
+      left: 1400vmin;
+    }
+    87% {
+      left: 1500vmin;
+    }
+    90% {
+      left: 1500vmin;
+    }
+    100% {
+      left: 0vmin;
+    }
+  }
+  @keyframes slideAnimation {
+    0% {
+      left: 0vmin;
+    }
+    3% {
+      left: 100vmin;
+    }
+    6% {
+      left: 100vmin;
+    }
+    9% {
+      left: 200vmin;
+    }
+    12% {
+      left: 200vmin;
+    }
+    15% {
+      left: 300vmin;
+    }
+    18% {
+      left: 300vmin;
+    }
+    21% {
+      left: 400vmin;
+    }
+    24% {
+      left: 400vmin;
+    }
+    27% {
+      left: 500vmin;
+    }
+    30% {
+      left: 500vmin;
+    }
+    33% {
+      left: 600vmin;
+    }
+    36% {
+      left: 600vmin;
+    }
+    39% {
+      left: 700vmin;
+    }
+    42% {
+      left: 700vmin;
+    }
+    45% {
+      left: 800vmin;
+    }
+    48% {
+      left: 800vmin;
+    }
+    51% {
+      left: 900vmin;
+    }
+    54% {
+      left: 900vmin;
+    }
+    57% {
+      left: 1000vmin;
+    }
+    60% {
+      left: 1000vmin;
+    }
+    63% {
+      left: 1100vmin;
+    }
+    66% {
+      left: 1100vmin;
+    }
+    69% {
+      left: 1200vmin;
+    }
+    72% {
+      left: 1200vmin;
+    }
+    75% {
+      left: 1300vmin;
+    }
+    78% {
+      left: 1300vmin;
+    }
+    81% {
+      left: 1400vmin;
+    }
+    84% {
+      left: 1400vmin;
+    }
+    87% {
+      left: 1500vmin;
+    }
+    90% {
+      left: 1500vmin;
+    }
+    100% {
+      left: 0vmin;
+    }
+  }
+  .fifthElementContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fifthElementContainer .imgContainer img {
+    width: 100vmin;
+  }
+  .fifthElementContainer .quoteContainer .quote {
+    margin-bottom: 10vmin;
+  }
+  .fifthElementContainer .quoteContainer .quote h3 {
+    font-size: 3.5vh;
+    text-align: center;
+    padding: 0 3vmin;
+  }
+  .fifthElementContainer .quoteContainer p {
+    font-size: 2vh;
+  }
+  .sixthElementContainer .joinOptions .joinOption {
+    width: 80vmin;
+    height: 80vmin;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 15vmin 5vmin;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .contacts {
+    margin-top: 10vmin;
+  }
+  footer .contacts .contact p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .contacts .contact p img {
+    width: 50vmin;
+  }
 }
 /*# sourceMappingURL=vipclub.css.map */

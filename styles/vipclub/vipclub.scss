@@ -2,7 +2,7 @@
 
 #transparentTopnav{
     @include topnav();
-    background-color: transparent !important;
+    background-color: transparent;
     border: none;
     color: $topnavBg;
     position: absolute;
@@ -452,10 +452,184 @@
     }
 }
 
-
-
-
-
 footer{
     margin-top: 20vmin;
+}
+@media screen and (max-width: 1320px){
+    #transparentTopnav, .topnav {
+        flex-direction: column;
+        height: 120vmin;
+        background-color: black;
+    }
+    .firstElementContainer{
+        margin-top: 120vmin;
+        .firstText{
+            width: 100%;
+            .title{
+                h1{
+                    font-size: 3vh;
+                    padding: 3vmin;
+                    text-align: center;
+                }
+            }
+            .desc{
+                img{
+                    width: 50vmin;
+                    margin-left: 15vmin;
+                }
+            }
+        }
+    }
+    .secondElementContainer{
+        .listOfAdvs{
+            margin-top: 15vmin;
+            .adv{
+                width: 65vmin;
+                height: 65vmin;
+                p{
+                    font-size: 2.5vh;
+                }
+            }
+            .adv[title]{
+                padding: 0;
+                p{
+                    font-size: 4vh;
+                }
+            }
+        }
+        .listOfDis{
+            margin-top: 10vmin;
+            .dis{
+                width: 65vmin;
+                height: 65vmin;
+                p{
+                    font-size: 2.5vh;
+                }
+            }
+            .dis[title]{
+                padding: 0;
+                p{
+                    font-size: 4vh;
+                }
+            }
+        }
+    }
+    .thirdElementContainer{
+        .title{
+            h1{
+                font-size: 3vh;
+            }
+        }
+    }
+    .thirdElementTitle{
+        h1{
+            font-size: 3vh;
+            text-align: center;
+        }
+        h3{
+            font-size: 1.8vh;
+            padding: 7vmin 4vmin;
+            text-align: center;
+        }
+    }
+    .fourthElementContainer{
+        width: 100%;
+        .fourthElement{
+            margin: 0 0 0 -1605vmin;
+            width: 1700vmin;
+            .review{
+                width: 90vmin;
+                height: 90vmin;
+                .dataContainer{
+                    padding: 3vmin;
+                    .name{
+                        margin-bottom: 3vmin;
+                        font-size: 2.5vh;
+                    }
+                    .description{
+                        font-size: 1.7vh;
+                    }
+                }
+            }
+        }
+        @keyframes slideAnimation {
+            0%{left: 0vmin;}
+            3%{left: 100vmin;}
+            6%{left: 100vmin;}
+            9%{left: 200vmin;}
+            12%{left: 200vmin;}
+            15%{left: 300vmin;}
+            18%{left: 300vmin;}
+            21%{left: 400vmin;}
+            24%{left: 400vmin;}
+            27%{left: 500vmin;}
+            30%{left: 500vmin;}
+            33%{left: 600vmin;}
+            36%{left: 600vmin;}
+            39%{left: 700vmin;}
+            42%{left: 700vmin;}
+            45%{left: 800vmin;}
+            48%{left: 800vmin;}
+            51%{left: 900vmin;}
+            54%{left: 900vmin;}
+            57%{left: 1000vmin;}
+            60%{left: 1000vmin;}
+            63%{left: 1100vmin;}
+            66%{left: 1100vmin;}
+            69%{left: 1200vmin;}
+            72%{left: 1200vmin;}
+            75%{left: 1300vmin;}
+            78%{left: 1300vmin;}
+            81%{left: 1400vmin;}
+            84%{left: 1400vmin;}
+            87%{left: 1500vmin;}
+            90%{left: 1500vmin;}
+            100%{left: 0vmin;}
+        }
+    }
+    .fifthElementContainer{
+        flex-direction: column;
+        .imgContainer{
+            img{
+                width: 100vmin;
+            }
+        }
+        .quoteContainer{
+            .quote{
+                margin-bottom: 10vmin;
+                h3{
+                    font-size: 3.5vh;
+                    text-align: center;
+                    padding: 0 3vmin;
+                }
+            }
+            p{
+                font-size: 2vh;
+            }
+        }
+    }
+    .sixthElementContainer{
+        .joinOptions{
+            .joinOption{
+                width: 80vmin;
+                height: 80vmin;
+            }
+        }
+    }
+    footer{
+        flex-direction: column;
+        padding: 15vmin 5vmin;
+        align-items: center;
+        .contacts{
+            margin-top: 10vmin;
+            .contact{
+                p{
+                    flex-direction: column;
+                    img{
+                        width: 50vmin;
+                    }
+                }
+            }
+        }
+    }
 }
