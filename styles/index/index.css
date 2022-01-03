@@ -976,6 +976,9 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+  .chatbotContainer, .chatbotLogo {
+    display: none;
+  }
   .mainContainer {
     overflow: hidden;
     max-width: 100%;
@@ -1340,6 +1343,9 @@ footer {
 }
 
 @media (min-width: 421px) and (max-width: 750px) {
+  .chatbotContainer, .chatbotLogo {
+    display: none;
+  }
   .mainContainer {
     overflow: hidden;
     max-width: 100%;
@@ -1734,5 +1740,11 @@ footer {
 
 .chatbotContainer .chatbot .chatbotButtons .chatbotButton p {
   text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .chatbotContainer, .chatbotLogo {
+    display: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */
