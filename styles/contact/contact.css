@@ -246,4 +246,30 @@ footer {
 footer {
   margin-top: 10vmin;
 }
+
+@media screen and (max-width: 1120px) {
+  .topnav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120vmin;
+  }
+  .joinIntro {
+    margin-top: 130vmin;
+  }
+  .joinIntro h1 {
+    font-size: 4vh;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20vmin 5vmin;
+  }
+  footer .contacts {
+    margin-top: 10vmin;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

@@ -695,4 +695,125 @@ footer {
   font-weight: 500;
   font-size: 3vh;
 }
+
+@media screen and (max-width: 1120px) {
+  .topnav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 120vmin;
+  }
+  .firstElementContainer {
+    margin-top: 120vmin;
+  }
+  .firstElementContainer .firstText .title h1 {
+    text-align: center;
+  }
+  .secondElementContainer .coachingTips .tips .eyes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .secondElementContainer .coachingTips .tips .eyes .tip {
+    margin: 5vmin;
+    height: 70vmin;
+    width: 70vmin;
+  }
+  .secondElementContainer .coachingTips .tips .eyes .tip .tipText {
+    padding: 5vmin;
+  }
+  .secondElementContainer .coachingTips .tips .eyes .tip .tipText p {
+    font-size: 4vh;
+  }
+  .secondElementContainer .coachingTips .tips .mouth {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .secondElementContainer .coachingTips .tips .mouth .tip {
+    margin: 0;
+    margin: 5vmin;
+  }
+  .secondElementContainer .coachingTips .tips .mouth .tip[second], .secondElementContainer .coachingTips .tips .mouth .tip[third], .secondElementContainer .coachingTips .tips .mouth .tip[middle] {
+    margin: 5vmin;
+  }
+  .secondElementContainer .coachingTips .tips .mouth .tip {
+    margin: 5vmin;
+    height: 70vmin;
+    width: 70vmin;
+  }
+  .secondElementContainer .coachingTips .tips .mouth .tip .tipText {
+    padding: 5vmin;
+  }
+  .secondElementContainer .coachingTips .tips .mouth .tip .tipText p {
+    font-size: 4vh;
+  }
+  .thirdElementContainer .firstLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .thirdElementContainer .firstLine img {
+    margin: 0 0 0 8vmin;
+  }
+  .thirdElementContainer .secondLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fourthElementContainer .title h1 {
+    font-size: 5vh;
+    padding: 0 5vmin;
+    text-align: center;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=coaching.css.map */

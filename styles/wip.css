@@ -123,3 +123,17 @@ footer{
 #myContact p img{
     margin-left: 5vmin;
 }
+@media screen and (max-width: 1120px){
+    .topnav{
+        position: absolute;
+        flex-direction: column;
+        height: 120vmin;
+    }
+    .wipContainer{
+        margin: 140vmin 0 20vmin 0;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20vmin 5vmin;
+    }
+}

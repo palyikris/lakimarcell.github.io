@@ -227,3 +227,85 @@
         }
     }
 }
+@media screen and (max-width: 1120px){
+    .topnav{
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        height: 120vmin;
+    }
+    .firstElementContainer{
+        margin-top: 120vmin;
+        .firstText{
+            .title{
+                h1{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .secondElementContainer{
+        .coachingTips{
+            .tips{
+                .eyes{
+                    @include centerDiv(column);
+                    .tip{
+                        margin: 5vmin;
+                        height: 70vmin;
+                        width: 70vmin;
+                        .tipText{
+                            padding: 5vmin;
+                            p{
+                                font-size: 4vh;
+                            }
+                        }
+                    }
+                }
+                .mouth{
+                    @include centerDiv(column);                    
+                    .tip{
+                        margin: 0;
+                        margin: 5vmin;
+                    }
+                    .tip[second], .tip[third], .tip[middle]{
+                        margin: 5vmin;
+                    }
+                    .tip{
+                        margin: 5vmin;
+                        height: 70vmin;
+                        width: 70vmin;
+                        .tipText{
+                            padding: 5vmin;
+                            p{
+                                font-size: 4vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .thirdElementContainer{
+        .firstLine{
+            @include centerDiv(column);
+            img{
+                margin: 0 0 0 8vmin;
+            }
+        }
+        .secondLine{
+            @include centerDiv(column);
+        }
+    }
+    .fourthElementContainer{
+        .title{
+            h1{
+                font-size: 5vh;
+                padding: 0 5vmin;
+                text-align: center;
+            }
+        }
+    }
+    footer{
+        flex-direction: column;
+    }
+}

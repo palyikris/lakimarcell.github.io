@@ -53,3 +53,22 @@
 footer{
     margin-top: 10vmin;
 }
+@media screen and (max-width: 1120px){
+    .topnav{
+        flex-direction: column;
+        height: 120vmin;
+    }
+    .joinIntro{
+        margin-top: 130vmin;
+        h1{
+            font-size: 4vh;
+        }
+    }
+    footer {
+        flex-direction: column;
+        padding: 20vmin 5vmin;
+        .contacts{
+            margin-top: 10vmin;
+        }
+    }
+}
