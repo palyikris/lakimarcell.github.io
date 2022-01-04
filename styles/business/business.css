@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -532,7 +531,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("../../public/ba háttér a csomaghoz.jpg");
+  background: url("../../public/baBgPacks.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -181,7 +180,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("../../public/1�vip klubb háttere fogadó rész.jpg");
+  background: url("../../public/vipclubFirstBg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

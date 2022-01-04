@@ -72,7 +72,7 @@ background: white;
     color: white;
 }
 .firstElementContainer{
-    background: url("../../public/wetransfer_weboldalon-levo-kep-jpg_2021-12-21_1251/weboldalon\ lévő\ kép.jpg");
+    background: url("/public/indexHtmlElsoKep/elsoindexelem.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ background: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("../../public/5.\ elem\ háttérképe.jpg");
+    background: url("/public/otodikindexelem.jpg");
     @include bgPic();
     width: 100%;
     padding: 20vmin 0vmin 10vmin  0vmin;
@@ -370,7 +370,7 @@ background: white;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    background: url("../../public/weboldalra\ kép.jpg");
+    background: url("/public/connectionsbg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

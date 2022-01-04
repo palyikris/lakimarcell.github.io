@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -203,7 +202,7 @@ footer {
 }
 
 .firstElementContainer {
-  background: url("../../public/wetransfer_weboldalon-levo-kep-jpg_2021-12-21_1251/weboldalon lévő kép.jpg");
+  background: url("/public/indexHtmlElsoKep/elsoindexelem.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -686,7 +685,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("../../public/5. elem háttérképe.jpg");
+  background: url("/public/otodikindexelem.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -813,7 +812,7 @@ footer {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: url("../../public/weboldalra kép.jpg");
+  background: url("/public/connectionsbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
