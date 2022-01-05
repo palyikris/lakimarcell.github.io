@@ -150,8 +150,8 @@ background: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-top: 80vmin;
+    width: 100vmin;
+    margin-top: 100vmin;
 }
 .controls .prev, .controls .next{
     display: flex;
@@ -186,8 +186,8 @@ background: white;
     font-weight: bold;
     background-color: rgba(171, 171, 171, .4);
     border-radius: 10px;
-    width: 70vmin;
-    height: 70vmin;
+    width: 80vmin;
+    height: 80vmin;
     padding: 5vmin;
     backdrop-filter: 5px;
     transition: all .6s;
@@ -284,6 +284,11 @@ footer{
                     }
                 }
             }
+        }
+    }
+    .myStory{
+        p{
+            font-size: 2.5vh;
         }
     }
 }

@@ -249,8 +249,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  margin-top: 80vmin;
+  width: 100vmin;
+  margin-top: 100vmin;
 }
 
 .controls .prev, .controls .next {
@@ -303,8 +303,8 @@
   font-weight: bold;
   background-color: rgba(171, 171, 171, 0.4);
   border-radius: 10px;
-  width: 70vmin;
-  height: 70vmin;
+  width: 80vmin;
+  height: 80vmin;
   padding: 5vmin;
   -webkit-backdrop-filter: 5px;
           backdrop-filter: 5px;
@@ -440,6 +440,9 @@ footer {
   }
   footer .contacts .contact p img {
     margin-top: 4vmin;
+  }
+  .myStory p {
+    font-size: 2.5vh;
   }
 }
 /*# sourceMappingURL=about.css.map */
