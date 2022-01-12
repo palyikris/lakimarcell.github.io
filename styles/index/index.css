@@ -1558,6 +1558,17 @@ footer {
   padding: 3vmin;
 }
 
+.chatbotLogo .notificationBadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  padding: 1vmin 1.5vmin;
+  background-color: red;
+  color: white;
+  font-size: 2vh;
+  border-radius: 100%;
+}
+
 .chatbotContainer {
   display: -webkit-box;
   display: -ms-flexbox;

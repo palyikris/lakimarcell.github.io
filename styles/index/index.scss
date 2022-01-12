@@ -831,6 +831,16 @@ footer{
         border-radius: 15px;
         padding: 3vmin;
     }
+    .notificationBadge{
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        padding: 1vmin 1.5vmin;
+        background-color: red;
+        color: white;
+        font-size: 2vh;
+        border-radius: 100%;
+    }
 }
 .chatbotContainer{
     @include centerDiv(column);
