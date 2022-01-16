@@ -118,7 +118,6 @@ footer {
   height: 15vmin;
   position: fixed;
   z-index: 10;
-  top: 0;
   color: black;
   position: absolute;
 }
@@ -270,6 +269,55 @@ footer {
   }
   footer .contacts {
     margin-top: 10vmin;
+  }
+}
+
+.topnavBarContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 10vmin;
+  padding-left: 10vmin;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: none;
+  background-color: black;
+  color: white;
+  font-size: 3.5vh;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.topnavBarContainer div:hover {
+  opacity: .7;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media screen and (max-width: 950px) {
+  #topnavBarContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .topnav {
+    display: none;
+    top: 10vmin;
+  }
+  .firstElementContainer {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=contact.css.map */

@@ -46,7 +46,7 @@ background: white;
     height: 15vmin;
     position: fixed;
     z-index: 10;
-    top: 0;
+    top: 0vmin;
 }
 .topnav a{
     width: 100%;
@@ -751,6 +751,7 @@ footer{
         flex-direction: column;
         height: 120vmin;
         position: absolute;
+        top: 10vmin;
     }
     .firstElementContainer{
         margin-top: 120vmin;
@@ -931,8 +932,33 @@ footer{
         }
     }
 }
+.topnavBarContainer{
+    @include topnavBar;
+    background-color: black;
+    color: white;
+    font-size: 3.5vh;
+    transition: all .5s;
+    div{
+        &:hover{
+            opacity: .7;
+            transform: scale(1.05);
+        }
+    }
+}
 @media screen and (max-width: 720px) {
     .chatbotContainer, .chatbotLogo{
         display: none;
+    }
+}
+@media screen and (max-width: 950px) {
+    #topnavBarContainer{
+        display: flex;
+    }
+    .topnav{
+        display: none;
+        top: 10vmin;
+    }
+    .firstElementContainer{
+        margin-top: 0;
     }
 }

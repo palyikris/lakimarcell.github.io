@@ -137,3 +137,35 @@ footer{
         padding: 20vmin 5vmin;
     }
 }
+
+.topnavBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vmin;
+    padding-left: 10vmin;
+    justify-content: flex-start;
+    display: none;
+    background-color: black;
+    color: white;
+    font-size: 3.5vh;
+    transition: all .5s;
+}
+.topnavBarContainer div:hover{
+    opacity: .7;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 950px) {
+    #topnavBarContainer{
+        display: flex;
+    }
+    .topnav{
+        display: none;
+        top: 10vmin;
+    }
+    .firstElementContainer{
+        margin-top: 0;
+    }
+}

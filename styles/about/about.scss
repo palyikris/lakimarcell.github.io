@@ -1,3 +1,6 @@
+@import "../uniformStyles/uniform";
+
+
 *{
     margin: 0;
     padding: 0;
@@ -290,5 +293,30 @@ footer{
         p{
             font-size: 2.5vh;
         }
+    }
+}
+.topnavBarContainer{
+    @include topnavBar;
+    background-color: black;
+    color: white;
+    font-size: 3.5vh;
+    transition: all .5s;
+    div{
+        &:hover{
+            opacity: .7;
+            transform: scale(1.05);
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    #topnavBarContainer{
+        display: flex;
+    }
+    .topnav{
+        display: none;
+        top: 10vmin;
+    }
+    .firstElementContainer{
+        margin-top: 0;
     }
 }

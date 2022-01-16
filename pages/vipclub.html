@@ -15,6 +15,11 @@
 </head>
 <body>
     <div class="mainContent">
+        <div class="topnavBarContainer" id="topnavBarContainer">
+            <div class="topnavBar" onclick="openTopnav()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
         <div class="topnav" id="transparentTopnav" data-aos="zoom-in">
             <div onclick="home()" class="option">
                 <img class="topnavImg" src="../public/weboldallogofeher.png" alt="Webpage logo">
@@ -321,6 +326,20 @@
 <script type="text/javascript">
     function home(){
         window.location.href="../index.html"
+    }
+
+    function openTopnav(){
+        let topnav = document.getElementById("transparentTopnav");
+        let topnavBar = document.getElementById("topnavBarContainer");
+        let firstElementContainer = document.querySelector(".firstElementContainer");
+        if( topnav.style.display == "none" ){
+            topnav.style.display = "flex";
+            firstElementContainer.style.marginTop = "120vmin"
+        }
+        else{
+            topnav.style.display = "none";
+            firstElementContainer.style.marginTop = "0vmin"
+        }
     }
 </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
