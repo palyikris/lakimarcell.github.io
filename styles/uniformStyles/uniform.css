@@ -101,4 +101,9 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+footer .informations .information a {
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=uniform.css.map */

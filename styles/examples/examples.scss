@@ -1,0 +1,87 @@
+@import "../uniformStyles/uniform";
+
+
+.mainContainer{
+    width: 100%;
+    height: 50vmin;
+    justify-content: flex-start;
+}
+.topnav{
+    @include topnav();
+}
+.listOfExamples{
+    margin-top: 35vmin;
+    @include centerDiv(column);
+    width: 100%;
+    h1{
+        font-size: 10vh;
+    }
+    .example{
+        @include centerDiv(column);
+        padding: 5vmin;
+        margin: 10vmin;
+        img{
+            width: 120vmin;
+            border-radius: 10px;
+        }
+        .text{
+            margin-top: 10vmin;
+            @include centerDiv(column);
+            width: 80vmin;
+            p{
+                text-align: left;
+                font: 5vh;
+            }
+        }
+    }
+}
+@media screen and (max-width: 920px) {
+    .topnav{
+        flex-direction: column;
+        height: 120vmin;
+        position: absolute;
+    }   
+    
+    footer{
+        flex-wrap: wrap;
+        .contacts{
+            margin-top: 5vmin;
+            .contact{
+                p{
+                    flex-direction: column;
+                    img{
+                        margin-top: 4vmin;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    #topnavBarContainer{
+        display: flex;
+        width: 100%;
+        margin: 7vmin 0 5vmin 7vmin;
+    }
+    .topnav{
+        display: none;
+        top: 15vmin;
+    }
+    .listOfExamples{
+        h1{
+            font-size: 7vh;
+        }
+        .example{
+            img{
+                width: 80vmin;
+            }
+            .text{
+                width: 60vmin;
+                p{
+                    font-size: 3.5vh;
+                }
+            }
+        }
+    }
+    
+}

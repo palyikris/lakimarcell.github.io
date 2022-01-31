@@ -107,6 +107,14 @@ footer .informations .information a {
   color: white;
 }
 
+.mainContainer {
+  width: 100%;
+  height: 50vmin;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .topnav {
   width: 100%;
   display: -webkit-box;
@@ -124,7 +132,6 @@ footer .informations .information a {
   position: fixed;
   z-index: 10;
   color: black;
-  position: absolute;
 }
 
 .topnav a {
@@ -157,40 +164,8 @@ footer .informations .information a {
   color: white;
 }
 
-.join {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  padding: 10vmin 5vmin;
-  background-color: #ebebeb;
-  width: 90%;
-  border-radius: 0 0 10px 10px;
-}
-
-.join iframe {
-  width: 100vmin;
-  height: 200vmin;
-  padding: 5vmin;
-  border: 1px solid #ebebeb;
-  margin-top: 30vmin;
-}
-
-.join .description {
+.listOfExamples {
+  margin-top: 35vmin;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,21 +179,14 @@ footer .informations .information a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 120vmin;
-  margin-top: 20vmin;
-  background-color: #ebebeb;
+  width: 100%;
 }
 
-.join .description p[bold] {
-  font-weight: bold;
-  margin: 10vmin 0;
+.listOfExamples h1 {
+  font-size: 10vh;
 }
 
-.join .description p {
-  font-size: 3vh;
-}
-
-.joinIntro {
+.listOfExamples .example {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,87 +196,67 @@ footer .informations .information a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 90%;
-  margin-top: 20vmin;
-  background-color: #9b6ade;
-  padding: 10vmin 0;
-  border-radius: 10px 10px 0 0;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5vmin;
+  margin: 10vmin;
 }
 
-.joinIntro h1 {
-  font-size: 6vh;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  color: white;
+.listOfExamples .example img {
+  width: 120vmin;
+  border-radius: 10px;
 }
 
-footer {
+.listOfExamples .example .text {
   margin-top: 10vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80vmin;
 }
 
-@media screen and (max-width: 1120px) {
+.listOfExamples .example .text p {
+  text-align: left;
+  font: 5vh;
+}
+
+@media screen and (max-width: 920px) {
   .topnav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     height: 120vmin;
-  }
-  .joinIntro {
-    margin-top: 130vmin;
-  }
-  .joinIntro h1 {
-    font-size: 4vh;
+    position: absolute;
   }
   footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .contacts {
+    margin-top: 5vmin;
+  }
+  footer .contacts .contact p {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 20vmin 5vmin;
   }
-  footer .contacts {
-    margin-top: 10vmin;
+  footer .contacts .contact p img {
+    margin-top: 4vmin;
   }
-}
-
-.topnavBarContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-  height: 10vmin;
-  padding-left: 10vmin;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  display: none;
-  background-color: black;
-  color: white;
-  font-size: 3.5vh;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.topnavBarContainer div:hover {
-  opacity: .7;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 @media screen and (max-width: 950px) {
@@ -316,13 +264,24 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
+    margin: 7vmin 0 5vmin 7vmin;
   }
   .topnav {
     display: none;
-    top: 10vmin;
+    top: 15vmin;
   }
-  .firstElementContainer {
-    margin-top: 0;
+  .listOfExamples h1 {
+    font-size: 7vh;
+  }
+  .listOfExamples .example img {
+    width: 80vmin;
+  }
+  .listOfExamples .example .text {
+    width: 60vmin;
+  }
+  .listOfExamples .example .text p {
+    font-size: 3.5vh;
   }
 }
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=examples.css.map */

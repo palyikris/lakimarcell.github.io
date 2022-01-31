@@ -130,3 +130,14 @@ background: white;
     justify-content: flex-start;
     display: none;
 }
+
+footer{
+    .informations{
+        .information{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
